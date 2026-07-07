@@ -1,0 +1,11 @@
+.DS_Store
+.playwright-cli/
+
+# Local source notes and private drafting files
+个人信息.md
+content-template.md
+
+# Do not publish local paper PDFs or original full-size photo
+论文/
+网站照片.jpg
+
