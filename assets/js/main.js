@@ -5,7 +5,6 @@
 
     document.querySelectorAll("[data-lang-filter]").forEach(function (button) {
       var isActive = button.dataset.langFilter === mode;
-      button.classList.toggle("is-active", isActive);
       button.setAttribute("aria-pressed", String(isActive));
     });
 
@@ -36,9 +35,6 @@
     });
 
     setLanguage(savedLanguage);
-
-    if (window.lucide && typeof window.lucide.createIcons === "function") {
-      window.lucide.createIcons();
-    }
+    document.querySelector(".language-switch").hidden = false;
   });
 })();

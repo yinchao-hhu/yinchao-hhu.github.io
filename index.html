@@ -8,428 +8,242 @@
       content="尹超，河海大学数学学院讲师，研究方向包括分布式优化、联邦学习、双层规划和一阶算法。"
     />
     <title>尹超 | Chao Yin | 河海大学数学学院</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/profile-placeholder.svg" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
     <script src="assets/js/main.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">
+      <span data-lang="zh">跳至正文</span>
+      <span data-lang="en" lang="en">Skip to content</span>
+    </a>
 
-    <header class="site-header">
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a class="brand" href="#top">
-          <span class="brand-mark" aria-hidden="true">H</span>
-          <span>
-            <strong>Chao Yin</strong>
-            <small>尹超 · Hohai University</small>
-          </span>
-        </a>
+    <header class="site-header" id="top">
+      <div class="site-bar">
+        <nav class="site-nav" aria-label="站内导航 / Site navigation">
+          <a href="#top"><span data-lang="zh">首页</span><span data-lang="en" lang="en">Home</span></a>
+          <a href="#publications"><span data-lang="zh">论文</span><span data-lang="en" lang="en">Papers</span></a>
+          <a href="#projects"><span data-lang="zh">基金</span><span data-lang="en" lang="en">Grants</span></a>
+          <a href="#teaching"><span data-lang="zh">招生</span><span data-lang="en" lang="en">Students</span></a>
+          <a href="#contact"><span data-lang="zh">联系</span><span data-lang="en" lang="en">Contact</span></a>
+        </nav>
 
-        <div class="nav-links">
-          <a href="#top">Home</a>
-          <a href="#about">Bio</a>
-          <a href="#research">Research</a>
-          <a href="#publications">Publications</a>
-          <a href="#projects">Grants</a>
-          <a href="#teaching">Students</a>
-          <a href="#personal">Personal</a>
-          <a href="#contact">Contact</a>
+        <div class="language-switch" role="group" aria-label="语言 / Language" hidden>
+          <button type="button" data-lang-filter="all" lang="zh-CN" aria-pressed="true">双语</button>
+          <button type="button" data-lang-filter="zh" lang="zh-CN" aria-pressed="false">中文</button>
+          <button type="button" data-lang-filter="en" lang="en" aria-pressed="false">English</button>
         </div>
-
-        <div class="language-switch" aria-label="Language view">
-          <button type="button" class="is-active" data-lang-filter="all" aria-pressed="true">
-            <i data-lucide="languages" aria-hidden="true"></i>
-            <span>中 / EN</span>
-          </button>
-          <button type="button" data-lang-filter="zh" aria-pressed="false">
-            <span>中文</span>
-          </button>
-          <button type="button" data-lang-filter="en" aria-pressed="false">
-            <span>EN</span>
-          </button>
-        </div>
-      </nav>
+      </div>
     </header>
 
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="profile-title">
-        <div class="hero-media">
-          <img src="assets/img/profile.jpg" alt="尹超 Chao Yin" />
-        </div>
+    <main class="site-layout" id="main" tabindex="-1">
+      <header class="profile">
+        <img class="profile-photo" src="assets/img/profile.jpg" width="1200" height="675" alt="尹超 / Chao Yin" />
 
-        <div class="hero-copy">
-          <p class="eyebrow">
-            <span data-lang="zh">河海大学数学学院</span>
-            <span data-lang="en">School of Mathematics, Hohai University</span>
-          </p>
-
-          <h1 id="profile-title">
+        <div class="profile-details">
+          <h1 class="profile-name">
             <span data-lang="zh">尹超</span>
-            <span class="name-divider" aria-hidden="true">/</span>
-            <span data-lang="en">Chao Yin</span>
+            <span data-lang="en" lang="en">Chao Yin</span>
           </h1>
 
-          <p class="role">
-            <span data-lang="zh">讲师，数学学院</span>
-            <span data-lang="en">Lecturer, School of Mathematics</span>
-          </p>
-
-          <p class="hero-summary" data-lang="zh">
-            我是河海大学数学学院讲师，主要研究分布式优化、联邦学习、双层规划以及一阶算法理论。
-            近期工作关注去中心化分布式优化、双层优化、自适应步长算法和原始-对偶方法。
-          </p>
-          <p class="hero-summary" data-lang="en">
-            I am a lecturer at the School of Mathematics, Hohai University. My research focuses on distributed
-            optimization, federated learning, bilevel optimization, and
-            first-order algorithms.
-          </p>
-
-          <div class="contact-strip" aria-label="Profile links">
-            <a href="mailto:yinchao@hhu.edu.cn">
-              <i data-lucide="mail" aria-hidden="true"></i>
-              <span>yinchao@hhu.edu.cn</span>
-            </a>
-            <a href="https://math.hhu.edu.cn/" target="_blank" rel="noreferrer">
-              <i data-lucide="building-2" aria-hidden="true"></i>
-              <span>School of Mathematics</span>
-            </a>
-            <a href="https://orcid.org/0009-0007-3070-0824" target="_blank" rel="noreferrer">
-              <i data-lucide="badge-check" aria-hidden="true"></i>
-              <span>ORCID</span>
-            </a>
-            <a href="https://www.researchgate.net/profile/Chao_Yin26" target="_blank" rel="noreferrer">
-              <i data-lucide="graduation-cap" aria-hidden="true"></i>
-              <span>ResearchGate</span>
-            </a>
+          <div class="affiliation">
+            <p data-lang="zh">
+              讲师<br />
+              <a href="https://math.hhu.edu.cn/">河海大学数学学院</a>
+            </p>
+            <p data-lang="en" lang="en">
+              Lecturer<br />
+              <a href="https://math.hhu.edu.cn/">School of Mathematics, Hohai University</a>
+            </p>
           </div>
 
-          <div class="hero-actions">
-            <a class="button primary" href="#publications">
-              <i data-lucide="scroll-text" aria-hidden="true"></i>
-              <span>Publications</span>
-            </a>
-            <a class="button" href="#teaching">
-              <i data-lucide="users" aria-hidden="true"></i>
-              <span>Students</span>
-            </a>
-            <a class="button" href="#contact">
-              <i data-lucide="send" aria-hidden="true"></i>
-              <span>Contact</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="about" aria-labelledby="about-title">
-        <div class="section-heading">
-          <p class="section-kicker">About</p>
-          <h2 id="about-title">
-            <span data-lang="zh">个人简介</span>
-            <span data-lang="en">Biography</span>
-          </h2>
-        </div>
-
-        <div class="two-column">
-          <article class="prose-block" data-lang="zh">
-            <h3>中文简介</h3>
-            <p>
-              尹超，河海大学数学学院讲师。2019 年本科毕业于北京理工大学数学与统计学院，2024 年直博毕业于南京大学数学系，导师为杨俊锋教授。
-              研究兴趣包括分布式优化、联邦学习、双层规划以及一阶算法理论。
-              近期工作围绕去中心化分布式优化、双层优化、自适应步长与原始-对偶算法，关注通信受限、数据异质和大规模机器学习场景下的收敛性分析与高效算法设计。
-              主持国家自然科学基金青年项目和江苏省自然科学基金青年项目。
-            </p>
-          </article>
-
-          <article class="prose-block" data-lang="en">
-            <h3>English Bio</h3>
-            <p>
-              Chao Yin is a lecturer at the School of Mathematics, Hohai University. He received his B.S. degree
-              from the School of Mathematics and Statistics, Beijing Institute of Technology in 2019, and his Ph.D.
-              degree from the Department of Mathematics, Nanjing University in 2024, under the supervision of Prof.
-              Junfeng Yang. His research focuses on distributed optimization, federated learning, first-order methods,
-              and bilevel optimization.
-              His recent work studies decentralized
-              bilevel optimization, adaptive stepsizes, primal-dual splitting, ADMM-type methods, and convergence
-              theory under communication constraints and data heterogeneity. He leads youth projects funded by
-              the National Natural Science Foundation of China and the Natural Science Foundation of Jiangsu Province.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section band" id="research" aria-labelledby="research-title">
-        <div class="section-heading">
-          <p class="section-kicker">Research</p>
-          <h2 id="research-title">
-            <span data-lang="zh">研究方向</span>
-            <span data-lang="en">Research Interests</span>
-          </h2>
-        </div>
-
-        <div class="interest-grid">
-          <article class="interest-item">
-            <i data-lucide="sigma" aria-hidden="true"></i>
-            <h3>
-              <span data-lang="zh">一阶算法</span>
-              <span data-lang="en">First-Order Methods</span>
-            </h3>
-            <p data-lang="zh">一阶优化算法、收敛性分析、复杂度界和参数选择机制。</p>
-            <p data-lang="en">First-order optimization algorithms, convergence analysis, complexity bounds, and parameter selection.</p>
-          </article>
-          <article class="interest-item">
-            <i data-lucide="network" aria-hidden="true"></i>
-            <h3>
-              <span data-lang="zh">分布式优化</span>
-              <span data-lang="en">Distributed Optimization</span>
-            </h3>
-            <p data-lang="zh">去中心化算法、梯度跟踪、通信约束与网络结构影响。</p>
-            <p data-lang="en">Decentralized algorithms, gradient tracking, communication limits, and graph effects.</p>
-          </article>
-          <article class="interest-item">
-            <i data-lucide="layers-3" aria-hidden="true"></i>
-            <h3>
-              <span data-lang="zh">联邦学习</span>
-              <span data-lang="en">Federated Learning</span>
-            </h3>
-            <p data-lang="zh">自适应方法、异质数据、客户端采样和鲁棒训练。</p>
-            <p data-lang="en">Adaptive methods, data heterogeneity, client sampling, and robust training.</p>
-          </article>
-          <article class="interest-item">
-            <i data-lucide="git-branch" aria-hidden="true"></i>
-            <h3>
-              <span data-lang="zh">双层规划</span>
-              <span data-lang="en">Bilevel Optimization</span>
-            </h3>
-            <p data-lang="zh">双层优化、超参数优化、数据清洗和元学习中的算法设计与收敛分析。</p>
-            <p data-lang="en">Algorithm design and convergence analysis for bilevel optimization, hyperparameter optimization, data cleaning, and meta-learning.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="publications" aria-labelledby="publications-title">
-        <div class="section-heading">
-          <p class="section-kicker">Publications</p>
-          <h2 id="publications-title">
-            <span data-lang="zh">论文与预印本</span>
-            <span data-lang="en">Publications and Preprints</span>
-          </h2>
-        </div>
-
-        <div class="publication-group" aria-label="Publication list">
-          <h3>
-            <span data-lang="zh">精选论文</span>
-            <span data-lang="en">Selected Publications</span>
-          </h3>
-          <article class="publication-item">
-            <div class="publication-year">2026</div>
-            <div class="publication-body">
-              <h4>S3LDBO: A Snapshot Single-Loop Algorithm for Decentralized Bilevel Optimization</h4>
-              <p>
-                <strong>Chao Yin</strong>, Youran Dong, Shiqian Ma, Bofan Wang, and Junfeng Yang.
-                <span data-lang="zh">arXiv 预印本，2026。</span>
-                <span data-lang="en">arXiv preprint, 2026.</span>
-              </p>
-              <div class="publication-links">
-                <a href="https://arxiv.org/abs/2605.31311" target="_blank" rel="noreferrer">arXiv</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication-item">
-            <div class="publication-year">2025</div>
-            <div class="publication-body">
-              <h4>A Single-Loop Algorithm for Decentralized Bilevel Optimization</h4>
-              <p>
-                Youran Dong, Shiqian Ma, Junfeng Yang, and <strong>Chao Yin</strong>.
-                <span data-lang="zh">Mathematics of Operations Research, Articles in Advance, 2025。</span>
-                <span data-lang="en">Mathematics of Operations Research, Articles in Advance, 2025.</span>
-              </p>
-              <div class="publication-links">
-                <a href="https://doi.org/10.1287/moor.2024.0488" target="_blank" rel="noreferrer">DOI</a>
-                <a href="https://arxiv.org/abs/2311.08945" target="_blank" rel="noreferrer">arXiv</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication-item">
-            <div class="publication-year">2024</div>
-            <div class="publication-body">
-              <h4>A Modified Primal-Dual Algorithm for Structured Convex Optimization with a Lipschitzian Term</h4>
-              <p>
-                <strong>Chao Yin</strong>, Hai-Wen Xu, and Jun-Feng Yang.
-                <span data-lang="zh">Journal of the Operations Research Society of China, 2024。</span>
-                <span data-lang="en">Journal of the Operations Research Society of China, 2024.</span>
-              </p>
-              <div class="publication-links">
-                <a href="https://doi.org/10.1007/s40305-024-00560-1" target="_blank" rel="noreferrer">DOI</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication-item">
-            <div class="publication-year">2024</div>
-            <div class="publication-body">
-              <h4>Golden Ratio Proximal Gradient ADMM for Distributed Composite Convex Optimization</h4>
-              <p>
-                <strong>Chao Yin</strong> and Junfeng Yang.
-                <span data-lang="zh">Journal of Optimization Theory and Applications, 200(3):895-922, 2024。</span>
-                <span data-lang="en">Journal of Optimization Theory and Applications, 200(3):895-922, 2024.</span>
-              </p>
-              <div class="publication-links">
-                <a href="https://doi.org/10.1007/s10957-023-02336-8" target="_blank" rel="noreferrer">DOI</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section band" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="section-kicker">Grants</p>
-          <h2 id="projects-title">
-            <span data-lang="zh">基金项目</span>
-            <span data-lang="en">Funded Projects</span>
-          </h2>
-        </div>
-
-        <div class="grant-list">
-          <article class="grant-item">
-            <h3>
-              <span data-lang="zh">弱光滑条件下的去中心分布式一阶算法研究及其应用</span>
-              <span data-lang="en">Decentralized First-Order Algorithms under Weak Smoothness and Applications</span>
-            </h3>
-            <p data-lang="zh">国家自然科学基金青年项目，2026.01.01-至今，经费 30 万，主持</p>
-            <p data-lang="en">NSFC Young Scientists Fund, 2026.01.01-present, RMB 300,000, PI</p>
-          </article>
-          <article class="grant-item">
-            <h3>
-              <span data-lang="zh">采取自适应步长的去中心分布式算法研究及其应用</span>
-              <span data-lang="en">Decentralized Distributed Algorithms with Adaptive Stepsizes and Applications</span>
-            </h3>
-            <p data-lang="zh">江苏省自然科学基金青年项目，2025.09.01-至今，经费 20 万，主持</p>
-            <p data-lang="en">Natural Science Foundation of Jiangsu Province Young Scholars Program, 2025.09.01-present, RMB 200,000, PI</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="teaching" aria-labelledby="teaching-title">
-        <div class="section-heading">
-          <p class="section-kicker">Teaching & Recruiting</p>
-          <h2 id="teaching-title">
-            <span data-lang="zh">教学与招生</span>
-            <span data-lang="en">Teaching and Student Recruiting</span>
-          </h2>
-        </div>
-
-        <div class="two-column">
-          <article class="list-block">
-            <h3>
-              <span data-lang="zh">招生方向</span>
-              <span data-lang="en">Student Recruiting</span>
-            </h3>
-            <ul>
-              <li data-lang="zh">欢迎对优化算法与理论、大模型训练与使用感兴趣的学生联系。</li>
-              <li data-lang="en">Students interested in optimization algorithms, theory, and LLM training or usage are welcome to contact me.</li>
-            </ul>
-          </article>
-
-          <article class="list-block">
-            <h3>
-              <span data-lang="zh">能力要求</span>
-              <span data-lang="en">Expected Skills</span>
-            </h3>
-            <ul>
-              <li data-lang="zh">熟练掌握 Python 和 LaTeX，具备较好的数学基础与论文阅读能力。</li>
-              <li data-lang="en">Proficiency in Python and LaTeX, with solid mathematical training and paper-reading ability.</li>
-              <li data-lang="zh">鼓励熟练使用 Codex、Claude Code 等 AI 工具开展科研与编程工作。</li>
-              <li data-lang="en">Experience with AI research and coding tools such as Codex and Claude Code is encouraged.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section band" id="personal" aria-labelledby="personal-title">
-        <div class="section-heading">
-          <p class="section-kicker">Personal</p>
-          <h2 id="personal-title">
-            <span data-lang="zh">个人爱好</span>
-            <span data-lang="en">Outside Research</span>
-          </h2>
-        </div>
-
-        <div class="two-column">
-          <article class="list-block">
-            <h3>
-              <span data-lang="zh">运动与摄影</span>
-              <span data-lang="en">Sports and Photography</span>
-            </h3>
-            <ul>
-              <li data-lang="zh">喜欢篮球，羽毛球，乒乓球，台球，游泳等运动娱乐。</li>
-              <li data-lang="en">I enjoy basketball for its teamwork, rhythm, and split-second decision making.</li>
-              <li data-lang="zh">喜欢摄影，尤其关注旅行、风景和日常生活中的光线与构图。</li>
-              <li data-lang="en">I also enjoy photography, especially travel, landscapes, and quiet moments of everyday life.</li>
-            </ul>
-          </article>
-
-          <article class="list-block">
-            <h3>
-              <span data-lang="zh">游戏与技术</span>
-              <span data-lang="en">Games and Technology</span>
-            </h3>
-            <ul>
-              <li data-lang="zh">业余时间也喜欢游戏，常把它看作放松、策略思考和体验交互设计的一种方式。</li>
-              <li data-lang="en">In my spare time, I like games as a way to relax, think strategically, and appreciate interactive design.</li>
-              <li data-lang="zh">我也持续关注 AI 工具如何改变科研写作、代码实现和数学实验的日常工作流。</li>
-              <li data-lang="en">I am also interested in how AI tools reshape research writing, coding, and mathematical experimentation.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="section-heading">
-          <p class="section-kicker">Contact</p>
-          <h2 id="contact-title">
-            <span data-lang="zh">联系方式</span>
-            <span data-lang="en">Contact</span>
-          </h2>
-        </div>
-
-        <div class="contact-panel">
-          <p>
-            <span data-lang="zh">邮箱：</span>
-            <span data-lang="en">Email: </span>
+          <p class="profile-links">
             <a href="mailto:yinchao@hhu.edu.cn">yinchao@hhu.edu.cn</a>
           </p>
-          <p>
-            <span data-lang="zh">单位：</span>
-            <span data-lang="en">Affiliation: </span>
-            <span data-lang="zh">河海大学数学学院</span>
-            <span data-lang="en">School of Mathematics, Hohai University</span>
-          </p>
-          <p>
-            <span data-lang="zh">办公室：</span>
-            <span data-lang="en">Office: </span>
-            <span data-lang="zh">江宁校区励学楼 B301</span>
-            <span data-lang="en">Room B301, Lixue Building, Jiangning Campus</span>
-          </p>
-          <p>
-            <span>ORCID: </span>
-            <a href="https://orcid.org/0009-0007-3070-0824" target="_blank" rel="noreferrer">0009-0007-3070-0824</a>
-          </p>
-          <p>
-            <span>ResearchGate: </span>
-            <a href="https://www.researchgate.net/profile/Chao_Yin26" target="_blank" rel="noreferrer">Chao Yin</a>
+          <p class="profile-links" lang="en">
+            <a href="https://orcid.org/0009-0007-3070-0824">ORCID</a>
+            <a href="https://www.researchgate.net/profile/Chao_Yin26">ResearchGate</a>
           </p>
         </div>
-      </section>
+      </header>
+
+      <div class="main-content">
+        <section class="content-section" id="about" aria-labelledby="about-title">
+          <h2 class="section-title" id="about-title">
+            <span data-lang="zh">个人简介</span>
+            <span data-lang="en" lang="en">Biography</span>
+          </h2>
+          <p data-lang="zh">
+            我于 2019 年本科毕业于北京理工大学数学与统计学院，随后在南京大学数学系直博，2024 年获博士学位，导师为杨俊锋教授。
+          </p>
+          <p data-lang="en" lang="en">
+            I received my bachelor's degree from the School of Mathematics and Statistics at Beijing Institute of
+            Technology in 2019. I then entered the direct PhD program at the Department of Mathematics,
+            Nanjing University, where I completed my PhD in 2024 under Prof. Junfeng Yang.
+          </p>
+        </section>
+
+        <section class="content-section" id="research" aria-labelledby="research-title">
+          <h2 class="section-title" id="research-title">
+            <span data-lang="zh">研究方向</span>
+            <span data-lang="en" lang="en">Research interests</span>
+          </h2>
+          <p data-lang="zh">
+            我的研究方向是分布式优化、联邦学习、双层规划和一阶算法。近期工作主要涉及去中心化双层优化、自适应步长、原始-对偶分裂和 ADMM 类方法，关注通信受限和数据异质条件下的算法设计与收敛性。
+          </p>
+          <p data-lang="en" lang="en">
+            I work on distributed optimization, federated learning, bilevel optimization, and first-order methods.
+            My recent work includes decentralized bilevel optimization, adaptive stepsizes, primal-dual splitting,
+            and ADMM-type methods. I study how communication constraints and data heterogeneity affect
+            algorithm design and convergence.
+          </p>
+        </section>
+
+        <section class="content-section" id="publications" aria-labelledby="publications-title">
+          <h2 class="section-title" id="publications-title">
+            <span data-lang="zh">论文与预印本</span>
+            <span data-lang="en" lang="en">Publications and preprints</span>
+          </h2>
+
+          <div class="paper-group">
+            <h3 class="group-title">
+              <span data-lang="zh">预印本</span>
+              <span data-lang="en" lang="en">Preprints</span>
+            </h3>
+            <ul class="paper-list" role="list" lang="en">
+              <li>
+                <cite class="paper-title">Optimal last-iterate rates for the projected decentralized stochastic subgradient method</cite>
+                <p class="paper-meta">Hao Wu, <strong>Chao Yin</strong>, Yuhong Dai, and Liping Wang.</p>
+                <p class="paper-meta">
+                  2026.
+                  <span class="paper-links"><a href="https://arxiv.org/abs/2611.11992">arXiv:2611.11992</a></span>
+                </p>
+              </li>
+              <li>
+                <cite class="paper-title">S3LDBO: A Snapshot Single-Loop Algorithm for Decentralized Bilevel Optimization</cite>
+                <p class="paper-meta"><strong>Chao Yin</strong>, Youran Dong, Shiqian Ma, Bofan Wang, and Junfeng Yang.</p>
+                <p class="paper-meta">
+                  2026.
+                  <span class="paper-links"><a href="https://arxiv.org/abs/2605.31311">arXiv:2605.31311</a></span>
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="paper-group">
+            <h3 class="group-title">
+              <span data-lang="zh">期刊论文</span>
+              <span data-lang="en" lang="en">Journal articles</span>
+            </h3>
+            <ul class="paper-list" role="list" lang="en">
+              <li>
+                <cite class="paper-title">A Single-Loop Algorithm for Decentralized Bilevel Optimization</cite>
+                <p class="paper-meta">Youran Dong, Shiqian Ma, Junfeng Yang, and <strong>Chao Yin</strong>.</p>
+                <p class="paper-meta">
+                  <cite>Mathematics of Operations Research</cite>, Articles in Advance, 2025.
+                  <span class="paper-links">
+                    <a href="https://doi.org/10.1287/moor.2024.0488">DOI</a>
+                    <a href="https://arxiv.org/abs/2311.08945">arXiv</a>
+                  </span>
+                </p>
+              </li>
+              <li>
+                <cite class="paper-title">A Modified Primal-Dual Algorithm for Structured Convex Optimization with a Lipschitzian Term</cite>
+                <p class="paper-meta"><strong>Chao Yin</strong>, Hai-Wen Xu, and Jun-Feng Yang.</p>
+                <p class="paper-meta">
+                  <cite>Journal of the Operations Research Society of China</cite>, 2024.
+                  <span class="paper-links"><a href="https://doi.org/10.1007/s40305-024-00560-1">DOI</a></span>
+                </p>
+              </li>
+              <li>
+                <cite class="paper-title">Golden Ratio Proximal Gradient ADMM for Distributed Composite Convex Optimization</cite>
+                <p class="paper-meta"><strong>Chao Yin</strong> and Junfeng Yang.</p>
+                <p class="paper-meta">
+                  <cite>Journal of Optimization Theory and Applications</cite>, 200(3): 895-922, 2024.
+                  <span class="paper-links"><a href="https://doi.org/10.1007/s10957-023-02336-8">DOI</a></span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="content-section" id="projects" aria-labelledby="projects-title">
+          <h2 class="section-title" id="projects-title">
+            <span data-lang="zh">基金项目</span>
+            <span data-lang="en" lang="en">Funded projects</span>
+          </h2>
+          <ul class="grant-list">
+            <li>
+              <div data-lang="zh">
+                <h3>弱光滑条件下的去中心分布式一阶算法研究及其应用</h3>
+                <p>国家自然科学基金青年项目，2026.01.01 至今，经费 30 万，主持。</p>
+              </div>
+              <div data-lang="en" lang="en">
+                <h3>Decentralized First-Order Algorithms under Weak Smoothness and Applications</h3>
+                <p>NSFC Young Scientists Fund, 2026.01.01 to present, RMB 300,000, PI.</p>
+              </div>
+            </li>
+            <li>
+              <div data-lang="zh">
+                <h3>采取自适应步长的去中心分布式算法研究及其应用</h3>
+                <p>江苏省自然科学基金青年项目，2025.09.01 至今，经费 20 万，主持。</p>
+              </div>
+              <div data-lang="en" lang="en">
+                <h3>Decentralized Distributed Algorithms with Adaptive Stepsizes and Applications</h3>
+                <p>Natural Science Foundation of Jiangsu Province Young Scholars Program, 2025.09.01 to present, RMB 200,000, PI.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="teaching" aria-labelledby="teaching-title">
+          <h2 class="section-title" id="teaching-title">
+            <span data-lang="zh">学生招生</span>
+            <span data-lang="en" lang="en">Prospective students</span>
+          </h2>
+          <p data-lang="zh">
+            欢迎对优化算法与理论、大模型训练与使用感兴趣的同学来信。希望你有扎实的数学基础，能阅读相关论文，熟练使用 Python 和 LaTeX；也鼓励用 Codex、Claude Code 等工具辅助科研和编程。
+          </p>
+          <p data-lang="en" lang="en">
+            Feel free to email me if you are interested in optimization algorithms and theory, or in training and
+            using large language models. I look for a solid math background, the ability to read research papers,
+            and proficiency in Python and LaTeX. I also encourage students to use tools such as Codex and
+            Claude Code for research and programming.
+          </p>
+        </section>
+
+        <section class="content-section" id="personal" aria-labelledby="personal-title">
+          <h2 class="section-title" id="personal-title">
+            <span data-lang="zh">个人爱好</span>
+            <span data-lang="en" lang="en">Personal interests</span>
+          </h2>
+          <p data-lang="zh">
+            我喜欢篮球、羽毛球、乒乓球、台球和游泳，平时也拍照、玩游戏。摄影方面，我喜欢拍旅途、风景和日常生活。
+          </p>
+          <p data-lang="en" lang="en">
+            Outside work, I enjoy basketball, badminton, table tennis, billiards, swimming, photography, and games.
+            I like taking photos of travel, landscapes, and everyday life.
+          </p>
+        </section>
+
+        <section class="content-section" id="contact" aria-labelledby="contact-title">
+          <h2 class="section-title" id="contact-title">
+            <span data-lang="zh">联系方式</span>
+            <span data-lang="en" lang="en">Contact</span>
+          </h2>
+          <p data-lang="zh">办公室：江宁校区励学楼 B301</p>
+          <p data-lang="en" lang="en">Office: Room B301, Lixue Building, Jiangning Campus</p>
+          <p class="contact-email">
+            <a href="mailto:yinchao@hhu.edu.cn">yinchao@hhu.edu.cn</a>
+          </p>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
       <p>
-        <span data-lang="zh">© 2026 尹超。基于纯静态 GitHub Pages 模板。</span>
-        <span data-lang="en">© 2026 Chao Yin. Built as a static GitHub Pages template.</span>
+        &copy; 2026
+        <span data-lang="zh">尹超</span>
+        <span data-lang="en" lang="en">Chao Yin</span>
       </p>
     </footer>
   </body>
